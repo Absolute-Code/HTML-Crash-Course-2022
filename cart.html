@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+
+<body>
+    <h1 id="header">Shopping Cart</h1>
+    <div>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>Cart</li>
+        </ul>
+    </div>
+    <img src="cart.png" width="100" height="100">
+    <span class="bold">Thanks for buying from us!</span>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Image -->
+                <td>
+                    <img src="phone.jpg" alt="phone" width="50" height="50">
+                </td>
+                <!-- Product name -->
+                <td>Best Phone</td>
+                <!-- Color -->
+                <td>
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </td>
+                <!-- Price -->
+                <td>$300</td>
+                <!-- Quantity -->
+                <td>
+                    <input type="number" name="quantity" value="3" min="1" max="20" step="5">
+                </td>
+                <!-- Total -->
+                <td>$600</td>
+            </tr>
+            <tr>
+                <!-- Image -->
+                <td>
+                    <img src="t-shirt.png" alt="t-shirt" width="50" height="50">
+                </td>
+                <!-- Product name -->
+                <td>Cool T-shirt</td>
+                <!-- Color -->
+                <td>
+                    <select>
+                        <option>Black</option>
+                        <option>Red</option>
+                    </select>
+                </td>
+                <!-- Price -->
+                <td>$99</td>
+                <!-- Quantity -->
+                <td>
+                    <input type="number" name="quantity" value="1" min="1" max="20">
+                </td>
+                <!-- Total -->
+                <td>$99</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <a href="register.html">
+        Please register to proceed to the checkout!
+    </a>
+</body>
+
+</html>
